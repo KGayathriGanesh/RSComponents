@@ -5,7 +5,7 @@ Feature: search for required products using Filter options.
     Given I launch the "chrome" browser
     When Initiate and set the Driver in BaseClass
 
-  @searchwithFilter_TC3
+  @searchwithFilter_TC4
   Scenario: Search for Aluminium Capacitors of Brand Kemet uing Filters
     Given I launch the RSComponent HomePage URL
     When I verify and click on All products link
@@ -16,8 +16,8 @@ Feature: search for required products using Filter options.
     Then I select "KEMET" Brand
     Then I select Apply filter button
 
-  @searchwithFilter_TC4
-  Scenario: Search for Aluminium Capacitors of Brand Kemet uing Filters
+  @searchwithFilter_TC5
+  Scenario: Search for Aluminium Capacitors of Brand Technology uing Filters
     Given I launch the RSComponent HomePage URL
     When I verify and click on All products link
     Then I click on Passive Components
@@ -27,8 +27,8 @@ Feature: search for required products using Filter options.
     Then I select "Hybrid" Brand
     Then I select Apply filter button
 
-  @searchwithFilter_TC5
-  Scenario: Search for Aluminium Capacitors of Brand Kemet uing Filters
+  @searchwithFilter_TC6
+  Scenario: Search for Aluminium Capacitors of Brand Polarised uing Filters
     Given I launch the RSComponent HomePage URL
     When I verify and click on All products link
     Then I click on Passive Components
