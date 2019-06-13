@@ -1,5 +1,5 @@
 @Search
-Feature: This is to setup Test
+Feature: search for required products using Filter options.
 
   Background:
     Given I launch the "chrome" browser

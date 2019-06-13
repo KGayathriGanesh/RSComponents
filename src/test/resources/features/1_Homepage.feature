@@ -1,4 +1,4 @@
-@Setup
+@Homepage
 Feature: Navigate all the Main Menu in RS Components Site
 
   Background:
@@ -6,7 +6,7 @@ Feature: Navigate all the Main Menu in RS Components Site
     When Initiate and set the Driver in BaseClass
 
   @HomePage
-  Scenario Outline: Verify "<link>" is displayed on banner in the HomePage
+  Scenario Outline: To ensure Home page has launched and verify all the pages are displayed.
     Given I launch the RSComponent HomePage URL
     Then "<link>" should be displayed
     Examples:

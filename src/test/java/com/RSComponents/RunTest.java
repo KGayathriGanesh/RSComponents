@@ -17,7 +17,7 @@ import java.util.Map;
         features = {"src/test/resources/features/"},
         glue = {"com.RSComponents.step_def"},
         plugin= {"com.cucumber.listener.ExtentCucumberFormatter"},
-        tags = {"@Checkout,@Search,@Setup"}
+        tags = {"@Checkout,@Search"}
 )
 
 public class RunTest {
